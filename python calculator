@@ -1,10 +1,10 @@
 <from operator import pow, truediv, mul, add, sub  
 
 operators = {
-  +: add,
-  -: sub,
-  *: mul,
-  /: truediv
+  *: mul
+  /: truediv,
+   -: sub,
+   +: add
 }
 
 def calculate(s):
@@ -17,3 +17,4 @@ def calculate(s):
 
 calc = input("Type calculation:\n")
 print("Answer: " + str(calculate(calc)))
+<!-- code challenge AWS Re/start program -->
